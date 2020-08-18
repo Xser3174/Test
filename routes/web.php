@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/admin','MasterController@index');
+Route::get('/user','UserController@index');
